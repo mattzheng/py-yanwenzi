@@ -5,6 +5,14 @@
 
 相关CSDN博客：https://mattzheng.blog.csdn.net/article/details/106494970
 
+
+其中`data`目录有两个数据源:
+
+- 颜文字,yanwenzi_2.json
+- 一些特殊符号,special_symbols.xlsx
+
+
+
 # 1 混用的几个库
 
 这里混用了几个笔者常用的文本处理的库，
