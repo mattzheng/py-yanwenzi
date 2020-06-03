@@ -18,8 +18,11 @@
 
 - emoji相关：emoji.py + data/emoji.txt + data/emoji-test.txt + data/emoji-wechat.txt 
 
+
 > 相关文章：
+
 > [网络表情NLP（一）︱颜文字表情实体识别、属性检测、新颜发现](https://mattzheng.blog.csdn.net/article/details/106494970)
+
 > [网络表情NLP（二）︱特殊表情包+emoji识别](https://editor.csdn.net/md?articleId=106499412)
 
 # 1 混用的几个库
