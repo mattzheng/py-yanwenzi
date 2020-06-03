@@ -5,13 +5,22 @@
 
 相关CSDN博客：https://mattzheng.blog.csdn.net/article/details/106494970
 
+# 0 更新日志
 
-其中`data`目录有两个数据源:
+## 2020-6-2
+
+整个项目 + `data`目录有两个数据源:
 
 - 颜文字,yanwenzi_2.json
 - 一些特殊符号,special_symbols.xlsx
 
+## 2020-6-3
 
+- emoji相关：emoji.py + data/emoji.txt + data/emoji-test.txt + data/emoji-wechat.txt 
+
+> 相关文章：
+> [网络表情NLP（一）︱颜文字表情实体识别、属性检测、新颜发现](https://mattzheng.blog.csdn.net/article/details/106494970)
+> [网络表情NLP（二）︱特殊表情包+emoji识别](https://editor.csdn.net/md?articleId=106499412)
 
 # 1 混用的几个库
 
