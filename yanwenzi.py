@@ -72,7 +72,7 @@ class yanwenzi():
         return self.actree.replace_keywords(text)
 
     def jieba_cut(self,text):
-        text = ywz.ywz_replace(text)
+        text = self.ywz_replace(text)
         return list(jieba.cut(text))
 
     '''  新颜文发现  '''
