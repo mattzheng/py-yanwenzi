@@ -72,7 +72,13 @@ class yanwenzi():
         return self.actree.replace_keywords(text)
 
     def jieba_cut(self,text):
-        text = self.ywz_replace(text)
+        '''
+        2020-6-3 发现'İrem 艾丽' - ywz_replace 报错：IndexError: string index out of range
+        '''
+        try:
+            text = self.ywz_replace(text)
+        except:
+            pass
         return list(jieba.cut(text))
 
     '''  新颜文发现  '''
